@@ -12,5 +12,18 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <item name="bottomButtonsStyle">@style/DefaultMyButtonsStyle</item>
     </style>
+
+
+    <style name="DefaultMyButtonsStyle">
+        <item name="bottomPositiveBackgroundColor">#880000</item>
+    </style>
+
+    <style name="MyBottomButtonsStyle">
+        <item name="bottomPositiveBackgroundColor">#FF5722</item>
+    </style>
+
+
 </resources>

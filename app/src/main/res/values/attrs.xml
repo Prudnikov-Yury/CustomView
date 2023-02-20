@@ -2,13 +2,15 @@
 <resources>
     <declare-styleable name="BottomButtonsView">
 
-        <attr name="bottomPositiveButtonText" format="string"/>
-        <attr name="bottomPositiveBackgroundColor" format="color"/>
+        <attr name="bottomPositiveButtonText" format="string" />
+        <attr name="bottomPositiveBackgroundColor" format="color" />
 
-        <attr name="bottomNegativeButtonText" format="string"/>
-        <attr name="bottomNegativeBackgroundColor" format="color"/>
+        <attr name="bottomNegativeButtonText" format="string" />
+        <attr name="bottomNegativeBackgroundColor" format="color" />
 
-        <attr name="bottomProgressMode" format="boolean"/>
+        <attr name="bottomProgressMode" format="boolean" />
 
     </declare-styleable>
+
+    <attr name="bottomButtonsStyle" format="reference" />
 </resources>
